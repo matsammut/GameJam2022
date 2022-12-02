@@ -4,16 +4,10 @@ using UnityEngine;
 
 public class Spawning : MonoBehaviour
 {
-  public GameObject basicPlatform;
-  public GameObject enemySpawn;
-  public GameObject Stairs;
-  public GameObject Jump;
-  public GameObject JumpAndDuck;
-  public GameObject Gaps;
 
   public Transform[] nextSection;
   public int randomSection = 0;
-  public int distance = 15;
+  public int distance = 8;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +24,7 @@ public class Spawning : MonoBehaviour
      {
        Debug.Log("Collided");
        //Detect player collision with current section to spawn the next.
-       int randomSection = Random.Range(0,7);
+       int randomSection = Random.Range(0,nextSection.Length);
 
        if (other.gameObject.tag == "Player") {
 

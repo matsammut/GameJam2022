@@ -18,7 +18,11 @@ Logs/AssetImportWorker1.log
 <<<<<<< HEAD
 54216
 =======
+<<<<<<< HEAD
+54216
+=======
 53637
+>>>>>>> main
 >>>>>>> main
 Successfully changed project path to: C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
 C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
@@ -54,7 +58,11 @@ C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 93.92 ms, found 4 plugins.
 =======
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 93.92 ms, found 4 plugins.
+=======
 Refreshing native plugins compatible for Editor in 91.67 ms, found 4 plugins.
+>>>>>>> main
 >>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
@@ -72,6 +80,9 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Manage
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -85,6 +96,8 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (640ms)
 		BeginReloadAssembly (70ms)
+<<<<<<< HEAD
+=======
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
@@ -100,12 +113,16 @@ Domain Reload Profiling:
 	ReloadAssembly (661ms)
 		BeginReloadAssembly (75ms)
 >>>>>>> main
+>>>>>>> main
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 		EndReloadAssembly (459ms)
 			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -120,6 +137,8 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (136ms)
 				ProcessInitializeOnLoadMethodAttributes (44ms)
+<<<<<<< HEAD
+=======
 =======
 		EndReloadAssembly (472ms)
 			LoadAssemblies (72ms)
@@ -136,6 +155,7 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (141ms)
 				ProcessInitializeOnLoadMethodAttributes (48ms)
 >>>>>>> main
+>>>>>>> main
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -145,13 +165,20 @@ Registering precompiled user dll's ...
 <<<<<<< HEAD
 Registered in 0.007646 seconds.
 =======
+<<<<<<< HEAD
+Registered in 0.007646 seconds.
+=======
 Registered in 0.007957 seconds.
+>>>>>>> main
 >>>>>>> main
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 Refreshing native plugins compatible for Editor in 89.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -224,6 +251,8 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1254ms)
 		BeginReloadAssembly (139ms)
+<<<<<<< HEAD
+=======
 =======
 Refreshing native plugins compatible for Editor in 88.58 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -233,12 +262,16 @@ Domain Reload Profiling:
 	ReloadAssembly (1274ms)
 		BeginReloadAssembly (147ms)
 >>>>>>> main
+>>>>>>> main
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (43ms)
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 		EndReloadAssembly (989ms)
 			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -320,6 +353,8 @@ Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (195.7 KB). Loaded Objects now: 4508.
 Memory consumption went from 155.0 MB to 154.8 MB.
 Total: 4.397800 ms (FindLiveObjects: 0.372900 ms CreateObjectMapping: 0.229000 ms MarkObjects: 3.581600 ms  DeleteObjects: 0.212200 ms)
+<<<<<<< HEAD
+=======
 =======
 		EndReloadAssembly (972ms)
 			LoadAssemblies (100ms)
@@ -350,6 +385,7 @@ Unloading 44 unused Assets / (229.0 KB). Loaded Objects now: 4494.
 Memory consumption went from 150.7 MB to 150.4 MB.
 Total: 4.888500 ms (FindLiveObjects: 0.444800 ms CreateObjectMapping: 0.274300 ms MarkObjects: 3.928200 ms  DeleteObjects: 0.239400 ms)
 >>>>>>> main
+>>>>>>> main
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -367,4 +403,11 @@ AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
 =======
+<<<<<<< HEAD
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+=======
+>>>>>>> main
 >>>>>>> main

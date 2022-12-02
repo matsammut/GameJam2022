@@ -52,6 +52,15 @@
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2021.3.14f1</UnityVersion>
   </PropertyGroup>
+<<<<<<< HEAD
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Terrain\GenerationScript\Spawning.cs" />
+  </ItemGroup>
+  <ItemGroup>
+=======
   <ItemGroup>
     <Compile Include="Assets\Terrain\generation\Spawning.cs" />
     <Compile Include="Assets\Scipts\Main_Menu_Scripts\Slider.cs" />
@@ -86,6 +95,7 @@
 =======
      <Compile Include="Assets\Terrain\generation\Spawning.cs" />
      <Compile Include="Assets\MainFollowPlayer.cs" />
+>>>>>>> main
 >>>>>>> main
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
