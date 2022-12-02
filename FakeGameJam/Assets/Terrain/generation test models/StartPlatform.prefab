@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7231415915037446210}
   m_Layer: 0
   m_Name: StartPlatform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,11 +129,6 @@ MonoBehaviour:
   Gaps: {fileID: 54546110177435244, guid: dd0df4ba3efcecd4aa981a54d7893e75, type: 3}
   nextSection:
   - {fileID: 980988517318169434, guid: e35b5f384eafe4148a318bf71fda8c94, type: 3}
-  - {fileID: 1386551384031356837, guid: 9feac6f112a29f642808b957ec4b5d90, type: 3}
-  - {fileID: 54546110177435241, guid: dd0df4ba3efcecd4aa981a54d7893e75, type: 3}
-  - {fileID: 2058527834575936444, guid: cd97cecbfb4b1ad408e086f4c6617399, type: 3}
-  - {fileID: 5834338114975078268, guid: 248121c712f9a6a4db617cf9487370cf, type: 3}
-  - {fileID: 1511508328112794706, guid: b05121aabab642b4e8bcb811876877c1, type: 3}
   randomSection: 0
   distance: 15
 --- !u!61 &7231415915037446210
@@ -216,7 +211,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 85b34d99070a6944180eaed98d9f6b4d, type: 2}
+  - {fileID: 2100000, guid: 6d97424f47ddcb24f87b692a06a14c1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
