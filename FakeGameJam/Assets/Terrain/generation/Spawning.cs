@@ -30,7 +30,7 @@ public class Spawning : MonoBehaviour
      {
        Debug.Log("Collided");
        //Detect player collision with current section to spawn the next.
-       int randomSection = Random.Range(0,7);
+       int randomSection = Random.Range(0,nextSection.Length);
 
        if (other.gameObject.tag == "Player") {
 
