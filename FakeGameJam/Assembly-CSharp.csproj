@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\Terrain\generation\Spawning.cs" />
+    <Compile Include="Assets\Scripts\Plus1HP.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
