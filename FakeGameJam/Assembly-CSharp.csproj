@@ -82,6 +82,11 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\Terrain\generation\Spawning.cs" />
+     <Compile Include="Assets\MainFollowPlayer.cs" />
+>>>>>>> main
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
