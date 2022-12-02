@@ -1,0 +1,569 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16241 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Gigabyte/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+52411
+Successfully changed project path to: C:/Users/Gigabyte/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
+C:/Users/Gigabyte/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 110.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Gigabyte/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1661
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.018848 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 127.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (871ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014734 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 118.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1555ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1227ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (228.8 KB). Loaded Objects now: 4495.
+Memory consumption went from 150.7 MB to 150.5 MB.
+Total: 4.535600 ms (FindLiveObjects: 0.406900 ms CreateObjectMapping: 0.342600 ms MarkObjects: 3.593900 ms  DeleteObjects: 0.191100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46979.441035 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143ff12711b5aba465cb6926918e9dc2') in 0.163268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.799572 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6d85ba9a3d348fa4ef12c09acadfce') in 0.014091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/Platform Prefabs/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef759cf77f6dadf0bddadcdc55bb2f7') in 0.018064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.572983 seconds.
+  path: Assets/Terrain/Platform Prefabs/MiddleGap.prefab
+  artifactKey: Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/MiddleGap.prefab using Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d248781d40624c9461829f7806862a') in 0.011873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.763323 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea5924b0fd70d8af1eefbca69ecabc8') in 0.011405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain/Platform Prefabs/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ad13a8ce04f0360989107645ce01b5') in 0.018377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.297504 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4140b9fee1c1e73e74669a1b37bd9d6') in 0.012531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/Platform Prefabs/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0d48145d5cb60a44c998a0bb9abd80') in 0.019529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.462745 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50db5662249d7fdcc3be31e4cd63a02') in 0.013307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Terrain/Platform Prefabs/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5248ff74b78242d50f090709180fde80') in 0.018905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.571439 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e741761bdc8931926adb6007df0d645') in 0.012129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/Platform Prefabs/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7e2000fc5ceb17d0c8213276e05eb8') in 0.020247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.329086 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b286f4f7aebb333619a25a86038a5fd') in 0.012035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/Platform Prefabs/MiddleGap.prefab
+  artifactKey: Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/MiddleGap.prefab using Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5019dc1213917b212e3944778f1891e6') in 0.015036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.252280 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaf5f0e3e89deccaf5158933a1d869a') in 0.013198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain/Platform Prefabs/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34ecc805532bec6427f72381db4e6bd') in 0.017992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.703270 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791e66436c1f9f52e8fa7ebd6256a5f6') in 0.013346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain/Platform Prefabs/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1c1c58e3c669deb4df36bf54a0d5e9') in 0.017492 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015359 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1555ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1215ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.5 KB). Loaded Objects now: 4506.
+Memory consumption went from 155.1 MB to 154.9 MB.
+Total: 4.264000 ms (FindLiveObjects: 0.338800 ms CreateObjectMapping: 0.253100 ms MarkObjects: 3.499800 ms  DeleteObjects: 0.170800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.140499 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d90bb0e83d93a4f1c704361d13f825') in 0.081591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain/Platform Prefabs/MiddleGap.prefab
+  artifactKey: Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/MiddleGap.prefab using Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0870875f98c3a330fcb2f8614fe360cd') in 0.014094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Terrain/Platform Prefabs/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e55cfed2798212860ca4fce59b149a') in 0.015657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.283890 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b1be028d1691afc2ba057f7b9be91f') in 0.011921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain/Platform Prefabs/MiddleGap.prefab
+  artifactKey: Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/MiddleGap.prefab using Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c679f43db34dfe220bd91941d5060f0') in 0.014512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Terrain/Platform Prefabs/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493d3bf2f4ce167a71ccab9aa32456c3') in 0.013858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.953878 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfe017aa7dfd6e23b5497ad5f070ace') in 0.014993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Terrain/Platform Prefabs/MiddleGap.prefab
+  artifactKey: Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/MiddleGap.prefab using Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5760864078936731b05e38108956b21e') in 0.013812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Terrain/Platform Prefabs/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d64948b43d944190fc0446ac63f935') in 0.012773 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014743 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.612 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1613ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1222ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.4 KB). Loaded Objects now: 4509.
+Memory consumption went from 155.1 MB to 154.9 MB.
+Total: 4.706400 ms (FindLiveObjects: 0.331500 ms CreateObjectMapping: 0.220000 ms MarkObjects: 3.984200 ms  DeleteObjects: 0.169300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013957 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1631ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1250ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (559ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.6 KB). Loaded Objects now: 4512.
+Memory consumption went from 155.1 MB to 155.0 MB.
+Total: 5.049400 ms (FindLiveObjects: 0.498400 ms CreateObjectMapping: 0.326500 ms MarkObjects: 4.056400 ms  DeleteObjects: 0.167000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2623.526326 seconds.
+  path: Assets/Terrain/Platform Prefabs/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66c5844dcf401edc3358a1d0c89368f') in 0.174399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.797572 seconds.
+  path: Assets/Terrain/Platform Prefabs/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868e975d2a8ed587937c4ed5b19684f4') in 0.012022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72496e1d9fa8bc6b1c3fbff94d60fe3c') in 0.013843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain/Platform Prefabs/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eac25f5785cca58e37db0dfdd455227') in 0.012557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.242783 seconds.
+  path: Assets/Terrain/Platform Prefabs/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008972a7cfa6024fca7c8b97dd1f4888') in 0.013935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Terrain/Platform Prefabs/MiddleGap.prefab
+  artifactKey: Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/MiddleGap.prefab using Guid(dc19528381b2e8e46a292c05cf69a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040a5fa8a25d9c93e9b6aa3d3db82bf7') in 0.014583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Terrain/Platform Prefabs/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b9076671cc34b93c35797d8d3bdeb0') in 0.015941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.085015 seconds.
+  path: Assets/Terrain/Platform Prefabs/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb692f8881986cf5ae5bd1c8a0f6a1c0') in 0.013322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Terrain/Platform Prefabs/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bbbe46638c78540c2ec346684a491e') in 0.019447 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
