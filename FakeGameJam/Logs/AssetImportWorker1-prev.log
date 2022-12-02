@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 3971 MB
+=======
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 15741 MB
+>>>>>>> main
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,6 +15,7 @@ C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
 C:/Users/nicho/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
 -logFile
 Logs/AssetImportWorker1.log
@@ -18,6 +23,23 @@ Logs/AssetImportWorker1.log
 50765
 Successfully changed project path to: C:/Users/nicho/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
 C:/Users/nicho/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
+=======
+C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+<<<<<<< HEAD
+54216
+=======
+<<<<<<< HEAD
+54216
+=======
+53637
+>>>>>>> main
+>>>>>>> main
+Successfully changed project path to: C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
+C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
+>>>>>>> main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,6 +69,7 @@ C:/Users/nicho/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 425.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
@@ -59,10 +82,33 @@ Direct3D:
     Vendor:   Intel
     VRAM:     1985 MB
     Driver:   22.20.16.4815
+=======
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 93.92 ms, found 4 plugins.
+=======
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 93.92 ms, found 4 plugins.
+=======
+Refreshing native plugins compatible for Editor in 91.67 ms, found 4 plugins.
+>>>>>>> main
+>>>>>>> main
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
+>>>>>>> main
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -76,10 +122,48 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3760ms)
 		BeginReloadAssembly (676ms)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006646 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
+Domain Reload Profiling:
+	ReloadAssembly (640ms)
+		BeginReloadAssembly (70ms)
+<<<<<<< HEAD
+=======
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006781 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (661ms)
+		BeginReloadAssembly (75ms)
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (6ms)
 		EndReloadAssembly (2412ms)
 			LoadAssemblies (649ms)
@@ -95,12 +179,53 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (21ms)
 				ProcessInitializeOnLoadAttributes (773ms)
 				ProcessInitializeOnLoadMethodAttributes (209ms)
+=======
+			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+		EndReloadAssembly (459ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+<<<<<<< HEAD
+=======
+=======
+		EndReloadAssembly (472ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.060879 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\nicho\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -146,6 +271,65 @@ Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (228.9 KB). Loaded Objects now: 4495.
 Memory consumption went from 150.8 MB to 150.6 MB.
 Total: 16.313400 ms (FindLiveObjects: 1.120600 ms CreateObjectMapping: 0.844400 ms MarkObjects: 13.577800 ms  DeleteObjects: 0.760700 ms)
+=======
+<<<<<<< HEAD
+Registered in 0.007646 seconds.
+=======
+<<<<<<< HEAD
+Registered in 0.007646 seconds.
+=======
+Registered in 0.007957 seconds.
+>>>>>>> main
+>>>>>>> main
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+Refreshing native plugins compatible for Editor in 89.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1169ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (228.9 KB). Loaded Objects now: 4494.
+Memory consumption went from 150.6 MB to 150.4 MB.
+Total: 3.697800 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.115900 ms MarkObjects: 3.045600 ms  DeleteObjects: 0.175800 ms)
+>>>>>>> main
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,6 +343,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 234.250661 seconds.
   path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Weights@3x.png
   artifactKey: Guid(d0e92ddf428f3da4abe78b8ef60e2a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1246,6 +1431,73 @@ Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (195.4 KB). Loaded Objects now: 4542.
 Memory consumption went from 155.3 MB to 155.1 MB.
 Total: 18.781200 ms (FindLiveObjects: 1.903000 ms CreateObjectMapping: 0.910900 ms MarkObjects: 15.327500 ms  DeleteObjects: 0.631500 ms)
+=======
+  Time since last request: 5578.453205 seconds.
+  path: Assets/Terrain/BasicPlatforms_and_Roof.prefab
+  artifactKey: Guid(e35b5f384eafe4148a318bf71fda8c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/BasicPlatforms_and_Roof.prefab using Guid(e35b5f384eafe4148a318bf71fda8c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dfe3bebf56efa8cabfc2460b510603') in 0.206462 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007230 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1254ms)
+		BeginReloadAssembly (139ms)
+<<<<<<< HEAD
+=======
+=======
+Refreshing native plugins compatible for Editor in 88.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1274ms)
+		BeginReloadAssembly (147ms)
+>>>>>>> main
+>>>>>>> main
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+		EndReloadAssembly (989ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.5 KB). Loaded Objects now: 4505.
+Memory consumption went from 155.0 MB to 154.8 MB.
+Total: 3.827800 ms (FindLiveObjects: 0.369100 ms CreateObjectMapping: 0.107900 ms MarkObjects: 3.183700 ms  DeleteObjects: 0.165400 ms)
+>>>>>>> main
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1257,7 +1509,113 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
+=======
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007594 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1230ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (957ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.7 KB). Loaded Objects now: 4508.
+Memory consumption went from 155.0 MB to 154.8 MB.
+Total: 4.397800 ms (FindLiveObjects: 0.372900 ms CreateObjectMapping: 0.229000 ms MarkObjects: 3.581600 ms  DeleteObjects: 0.212200 ms)
+<<<<<<< HEAD
+=======
+=======
+		EndReloadAssembly (972ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.0 KB). Loaded Objects now: 4494.
+Memory consumption went from 150.7 MB to 150.4 MB.
+Total: 4.888500 ms (FindLiveObjects: 0.444800 ms CreateObjectMapping: 0.274300 ms MarkObjects: 3.928200 ms  DeleteObjects: 0.239400 ms)
+>>>>>>> main
+>>>>>>> main
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+=======
+<<<<<<< HEAD
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+=======
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
