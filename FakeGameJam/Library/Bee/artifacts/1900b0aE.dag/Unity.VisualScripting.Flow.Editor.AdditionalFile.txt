@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-C:\Users\markd\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam
-=======
-C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam
->>>>>>> origin/4Damato
+C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam
