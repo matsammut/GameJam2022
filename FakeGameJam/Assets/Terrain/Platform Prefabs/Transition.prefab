@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1453668300939105600}
   m_Layer: 0
   m_Name: Hitbox
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 529354040140004886}
   m_Layer: 0
   m_Name: Platform 2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,8 +136,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3303007591109585229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.374, y: 1.2529, z: 0}
-  m_LocalScale: {x: 0.25, y: 1.5143, z: 1}
+  m_LocalPosition: {x: 0.41205, y: 1.5993, z: 0}
+  m_LocalScale: {x: 0.1739, y: 2.3492537, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8996775341960536258}
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 8068326321884573616}
   m_Layer: 0
   m_Name: Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -221,8 +221,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3993204921029273458}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 0.5, y: 1, z: 1}
+  m_LocalPosition: {x: 0.1519, y: 1.0773, z: 0}
+  m_LocalScale: {x: 0.3478, y: 1.2181988, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3124998284216193997}
@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 594980340995708268}
   m_Layer: 0
   m_Name: Transition
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -310,11 +310,12 @@ Transform:
   m_GameObject: {fileID: 5894124286817372116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 423553173698239612}
   - {fileID: 5586764708922914092}
+  - {fileID: 4042741711663146873}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -429,9 +430,94 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 912b2919d59a67748aee280ee1d202e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSection: []
+  nextSection:
+  - {fileID: 3542285014672255550, guid: 40e8ea75827ecd64f9fd3fbcf0abddb2, type: 3}
   randomSection: 0
   distance: 8
+--- !u!1 &6178824611188214321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4042741711663146873}
+  - component: {fileID: 8286942637810466623}
+  m_Layer: 0
+  m_Name: street-01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042741711663146873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6178824611188214321}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0091, y: 0.4092, z: 0}
+  m_LocalScale: {x: 0.014304933, y: 0.37094998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8483107115406269219}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8286942637810466623
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6178824611188214321}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: d4ec3ac06511a2845af58a17e0a421ed, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 80, y: 45}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &7932415350323655104
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,9 +530,10 @@ GameObject:
   - component: {fileID: 8005056569180908314}
   - component: {fileID: 6314888875897343231}
   - component: {fileID: 3101111672982745075}
+  - component: {fileID: 7537915696720541169}
   m_Layer: 0
   m_Name: Hitbox
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -556,6 +643,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 912b2919d59a67748aee280ee1d202e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSection: []
+  nextSection:
+  - {fileID: 6207696266180040982, guid: 32b359bc33a003f4f8844ee995c41815, type: 3}
   randomSection: 0
   distance: 8
+--- !u!114 &7537915696720541169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7932415350323655104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912b2919d59a67748aee280ee1d202e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSection:
+  - {fileID: 6207696266180040982, guid: 32b359bc33a003f4f8844ee995c41815, type: 3}
+  randomSection: 0
+  distance: 5
