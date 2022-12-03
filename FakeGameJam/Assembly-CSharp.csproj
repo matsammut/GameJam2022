@@ -61,10 +61,10 @@
     <Compile Include="Assets\Scripts\Health\Plus1HP.cs" />
     <Compile Include="Assets\Scripts\Main_Menu_Scripts\Slider.cs" />
     <Compile Include="Assets\Scripts\Player movement\Player.cs" />
+    <Compile Include="Assets\Scripts\Main_Menu_Scripts\TESTS\RandomSelectionOfText.cs" />
     <Compile Include="Assets\MainFollowPlayer.cs" />
     <Compile Include="Assets\Terrain\GenerationScript\Spawning.cs" />
     <Compile Include="Assets\Scripts\Pause_Menu_Scripts\Pause_Menu.cs" />
-    <Compile Include="Assets\Scripts\Main_Menu_Scripts\TESTS\RandomSelectionOfText.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
