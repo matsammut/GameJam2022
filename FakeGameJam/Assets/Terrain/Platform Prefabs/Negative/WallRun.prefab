@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2936256539673102826}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 1, z: 1}
+  m_LocalScale: {x: 16, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8562961119666453900}
@@ -160,7 +160,7 @@ MonoBehaviour:
   - {fileID: 765221591765702983, guid: f613375f0cf965a449eb5df2d0a4fc62, type: 3}
   - {fileID: 765221591765702983, guid: f613375f0cf965a449eb5df2d0a4fc62, type: 3}
   randomSection: 0
-  distance: 8
+  distance: 16
 --- !u!1 &3086934035953550472
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638056100634270215
     m_Hash: 3483574742
+=======
+      ticks: 638056711320044460
+    m_Hash: 418075399
+>>>>>>> origin/4Mark
   m_LockFileStatus:
     m_FilePath: C:/Users/emagr/Documents/GitHub/Game Jam 2022/FakeGameJam/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638056100634320226
     m_Hash: 659456189
+=======
+      ticks: 638056711320054437
+    m_Hash: 2069565512
+>>>>>>> origin/4Mark
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
