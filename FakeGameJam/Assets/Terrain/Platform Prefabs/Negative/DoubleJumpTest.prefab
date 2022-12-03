@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4549187044995455860}
   - component: {fileID: 8512362378381129206}
+  - component: {fileID: 4921905459597851410}
   m_Layer: 0
   m_Name: barbed wire
   m_TagString: Damage
@@ -84,6 +85,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4921905459597851410
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128285880638616661}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 43.84, y: 12.608281}
+    newSize: {x: 43.84, y: 12.608281}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 43.84, y: 12.608281}
+  m_EdgeRadius: 0
 --- !u!1 &976169203048009236
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,7 +446,7 @@ Transform:
   m_GameObject: {fileID: 5796319165953155002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 1, z: 1}
+  m_LocalScale: {x: 16, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1016330906916105180}
@@ -553,7 +580,7 @@ MonoBehaviour:
   - {fileID: 921412677199435037, guid: 38fdaf59e6581e845a2be102f97474fd, type: 3}
   - {fileID: 921412677199435037, guid: 38fdaf59e6581e845a2be102f97474fd, type: 3}
   randomSection: 0
-  distance: 8
+  distance: 16
 --- !u!1 &5823756966675033763
 GameObject:
   m_ObjectHideFlags: 0

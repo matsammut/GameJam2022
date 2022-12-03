@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Damage
   - Win
+  - PatrolEnd
+  - LeftPatrol
+  - RightPatrol
   layers:
   - Default
   - TransparentFX
