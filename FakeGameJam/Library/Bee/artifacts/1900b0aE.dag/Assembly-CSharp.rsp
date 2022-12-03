@@ -382,9 +382,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/BackgroundFollowPlayer.cs"
 "Assets/MainFollowPlayer.cs"
+"Assets/Scripts/EasyParallax/MovementSpeedType.cs"
+"Assets/Scripts/EasyParallax/SpriteDuplicator.cs"
+"Assets/Scripts/EasyParallax/SpriteMovement.cs"
 "Assets/Scripts/Enemy/EnemyPatrol.cs"
 "Assets/Scripts/Flash.cs"
+"Assets/Scripts/Game_Over.cs"
 "Assets/Scripts/Health/Plus1HP.cs"
 "Assets/Scripts/Health/timer.cs"
 "Assets/Scripts/Main_Menu_Scripts/ChangeSoundMute.cs"
@@ -395,6 +400,7 @@
 "Assets/Scripts/Player movement/Player.cs"
 "Assets/Scripts/Press_to_Start_Menu/ControlScene.cs"
 "Assets/Scripts/To implement/AudioManager.cs"
+"Assets/Scripts/Victory.cs"
 "Assets/Terrain/GenerationScript/Spawning.cs"
 -langversion:9.0
 

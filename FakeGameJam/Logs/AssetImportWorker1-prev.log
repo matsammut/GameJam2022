@@ -15,7 +15,7 @@ C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60860
+55331
 Successfully changed project path to: C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
 C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 99.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,37 +63,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006580 seconds.
+Registered in 0.006423 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 101.93 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 95.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.656 seconds
+- Completed reload, in  0.636 seconds
 Domain Reload Profiling:
-	ReloadAssembly (657ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (637ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (474ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (458ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (101ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (290ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (277ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
+				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadAttributes (129ms)
 				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,107 +101,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007195 seconds.
+Registered in 0.007129 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.58 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 92.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.236 seconds
+- Completed reload, in  1.205 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1237ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1206ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (998ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
+			SetupTypeCache (246ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (518ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (499ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (258ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (246ms)
 				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4083 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (229.2 KB). Loaded Objects now: 4535.
+Unloading 45 unused Assets / (229.3 KB). Loaded Objects now: 4535.
 Memory consumption went from 155.0 MB to 154.8 MB.
-Total: 3.579400 ms (FindLiveObjects: 0.400000 ms CreateObjectMapping: 0.270900 ms MarkObjects: 2.719100 ms  DeleteObjects: 0.187900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007608 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1107ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (864ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (408ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (196.1 KB). Loaded Objects now: 4538.
-Memory consumption went from 153.2 MB to 153.0 MB.
-Total: 3.875800 ms (FindLiveObjects: 0.376600 ms CreateObjectMapping: 0.117400 ms MarkObjects: 3.139800 ms  DeleteObjects: 0.240400 ms)
+Total: 4.468900 ms (FindLiveObjects: 0.392100 ms CreateObjectMapping: 0.135100 ms MarkObjects: 3.696800 ms  DeleteObjects: 0.243000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -215,67 +159,221 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 82409.673650 seconds.
-  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
-  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c6b2916ff6265bc70245330f3762dd') in 0.216952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
-  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7dceef994e722b44bca57af9d60aa8') in 0.113900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab
-  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c73501a69783010b35eda184ed7e35c') in 0.097479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 161.887793 seconds.
-  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
-  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2f7c506997c90bff7bec809b9d0569') in 0.123624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab
-  artifactKey: Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab using Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be59ffd8fe758e70d817b9081a8cbe61') in 0.096490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
+  Time since last request: 82737.205189 seconds.
   path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
   artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38b117cb2cea2f6ad27bb7d9b114b46') in 0.081836 seconds 
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cf413e7197bfde95ba5947a9664038') in 0.214233 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.304379 seconds.
+  Time since last request: 2.123439 seconds.
   path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
   artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ceb5b7c6fd0f28031efd77a58a327a') in 0.130568 seconds 
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235fcb0d4a02f540d24ea2aa0168a534') in 0.130454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0c96457744be4be5d75418b2c8e664') in 0.108381 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000075 seconds.
-  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab
-  artifactKey: Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab using Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c97566c1bd8a0d45cf8932ba80ef74f') in 0.113488 seconds 
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39435f28dc5004caf233817381cfc152') in 0.065809 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
+  Time since last request: 10.878672 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2cef58d1f25161d13064fb48e71a9f') in 0.140272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb23ed5091395bf9f846e327baeb2fc') in 0.108031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
   path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
   artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ece36e96f1787868c375ebb50eb048') in 0.057923 seconds 
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed599374df974512ca75cb38b52a3a8') in 0.068411 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.379229 seconds.
+  Time since last request: 106.200898 seconds.
   path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
   artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d1b887f3218f07e1c63ad9e1ba4f12') in 0.159056 seconds 
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa230bb68c70070de693690ec817f60f') in 0.118844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a7c2088e34caad05c3a14ca069abee') in 0.092461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab
+  artifactKey: Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab using Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd2e1661b53414a007ad10eade9388d') in 0.063206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f44532c6d95e5a9bf330d6cbb39fe24') in 0.059704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.743282 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e9db8d7bfb98f8118b6e38df44c708') in 0.064077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f27b0a7a3411f06659f87f9c480bab') in 0.063555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab
+  artifactKey: Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab using Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845b9da0feb3e33cbc1eacc993181feb') in 0.067855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459d9af96ab5cfbd4dcc5fb2f80cf254') in 0.075012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.641161 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7ca37419c54d1504d474fab31cb7d0') in 0.132321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cf80f18599215e493b085f810b1d2b') in 0.070048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab
+  artifactKey: Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab using Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc6c8e9344fc46f8dea810e189c1962') in 0.069429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.583812 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f59d2fc11311acfe87c5bf433f85e42') in 0.077055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenchesWithEnemy.prefab
+  artifactKey: Guid(9748efb32cefd124284e456dc58c8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenchesWithEnemy.prefab using Guid(9748efb32cefd124284e456dc58c8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0af4bf1b1150d9a654944cca1f7e13') in 0.086545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26114a467ce7a97b5d772cb6af366b57') in 0.062816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.995774 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b681a26e7642061497b58f53160791') in 0.131225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be0efc8ee406d18337ab2e2fd87abb9') in 0.113983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.366077 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/BasicRaisedPlatform.prefab
+  artifactKey: Guid(977ebd837c0328d4aa754361a3e7c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/BasicRaisedPlatform.prefab using Guid(977ebd837c0328d4aa754361a3e7c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06916981d2d384b1701a109a4e754448') in 0.072435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenchesWithEnemy.prefab
+  artifactKey: Guid(9748efb32cefd124284e456dc58c8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenchesWithEnemy.prefab using Guid(9748efb32cefd124284e456dc58c8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e6db33bd571e5a0655bb606de2fc12') in 0.068128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43837a655f1d344729ce7d1c993a0dce') in 0.063148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.572758 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce7ef802d0da789d5c4ecfb359e6781') in 0.078680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenchesWithEnemy.prefab
+  artifactKey: Guid(9748efb32cefd124284e456dc58c8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenchesWithEnemy.prefab using Guid(9748efb32cefd124284e456dc58c8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad8d2308733356bae808bd6e3e74935') in 0.094717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd384ed221cf1f3321d79f02f840738') in 0.066744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.833675 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdfec03e48eae8e73f3583dfcfd4352') in 0.132401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab
+  artifactKey: Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab using Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a3258b003e4b8e457041ca33606d52') in 0.075743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0443d7e928bc9e3cead844199f298cb') in 0.063032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.590689 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebc4b2649ab25ed19f85b4a28cfc5d7') in 0.083470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenchesWithEnemy.prefab
+  artifactKey: Guid(9748efb32cefd124284e456dc58c8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenchesWithEnemy.prefab using Guid(9748efb32cefd124284e456dc58c8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ae446b8a170c8bfc7dcc03d64267e4') in 0.077872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.144662 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d3889b7461f9e7a7a1489b8f04f035') in 0.151711 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab
-  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640ba0ebc7ece3a7eaad96eaa80db1e0') in 0.073758 seconds 
+  path: Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab
+  artifactKey: Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/TwoBenches.prefab using Guid(4e48d528e5b14254eb49aa006a94ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2780dccfe3713a75d9ee962647f101c6') in 0.149753 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

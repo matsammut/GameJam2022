@@ -50,6 +50,12 @@
      <Compile Include="Assets\MainFollowPlayer.cs" />
      <Compile Include="Assets\Terrain\GenerationScript\Spawning.cs" />
      <Compile Include="Assets\Scripts\Pause_Menu_Scripts\Pause_Menu.cs" />
+     <Compile Include="Assets\Scripts\Game_Over.cs" />
+     <Compile Include="Assets\Scripts\Victory.cs" />
+     <Compile Include="Assets\Scripts\EasyParallax\SpriteDuplicator.cs" />
+     <Compile Include="Assets\Scripts\EasyParallax\SpriteMovement.cs" />
+     <Compile Include="Assets\Scripts\EasyParallax\MovementSpeedType.cs" />
+     <Compile Include="Assets\BackgroundFollowPlayer.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -70,6 +76,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Scripts\EasyParallax\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
