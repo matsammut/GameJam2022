@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 15776 MB
+=======
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 3971 MB
+>>>>>>> 4Nic
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,6 +15,7 @@ C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
 C:/Users/emagr/Documents/GitHub/Game Jam 2022/FakeGameJam
 -logFile
 Logs/AssetImportWorker1.log
@@ -30,6 +35,15 @@ C:/Users/emagr/Documents/GitHub/Game Jam 2022/FakeGameJam
 Successfully changed project path to: C:/Users/emagr/Documents/GitHub/Game Jam 2022/FakeGameJam
 C:/Users/emagr/Documents/GitHub/Game Jam 2022/FakeGameJam
 >>>>>>> origin/4Em
+=======
+C:/Users/nicho/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55784
+Successfully changed project path to: C:/Users/nicho/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
+C:/Users/nicho/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam
+>>>>>>> 4Nic
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -60,6 +74,7 @@ C:/Users/emagr/Documents/GitHub/Game Jam 2022/FakeGameJam
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:FakeGameJam/Logs/AssetImportWorker1.log
 Refreshing native plugins compatible for Editor in 140.76 ms, found 4 plugins.
 ========
@@ -86,10 +101,25 @@ Direct3D:
     VRAM:     7888 MB
     Driver:   31.0.12014.6
 >>>>>>> origin/4Em
+=======
+Refreshing native plugins compatible for Editor in 647.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nicho/OneDrive/Documents/GitHub/GameJam2022/FakeGameJam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     1985 MB
+    Driver:   22.20.16.4815
+>>>>>>> 4Nic
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:FakeGameJam/Logs/AssetImportWorker1.log
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
@@ -157,10 +187,26 @@ Domain Reload Profiling:
 	ReloadAssembly (1513ms)
 		BeginReloadAssembly (167ms)
 >>>>>>> origin/4Em
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.035739 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1039.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6872ms)
+		BeginReloadAssembly (707ms)
+>>>>>>> 4Nic
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (1ms)
 <<<<<<< HEAD
 <<<<<<<< HEAD:FakeGameJam/Logs/AssetImportWorker1.log
@@ -210,12 +256,30 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (212ms)
 				ProcessInitializeOnLoadMethodAttributes (104ms)
 >>>>>>> origin/4Em
+=======
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (4598ms)
+			LoadAssemblies (719ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (742ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (215ms)
+			SetupLoadedEditorAssemblies (3195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1040ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (1228ms)
+				ProcessInitializeOnLoadMethodAttributes (855ms)
+>>>>>>> 4Nic
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:FakeGameJam/Logs/AssetImportWorker1.log
 Registered in 0.013014 seconds.
@@ -704,3 +768,6 @@ Received Import Request.
   artifactKey: Guid(8759e4cba7cd2c245b63495d2834b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/To implement/AudioManager.cs using Guid(8759e4cba7cd2c245b63495d2834b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756896d607542f9c1a2417a746273b5b') in 0.050069 seconds 
 >>>>>>> origin/4Em
+=======
+Registered in 0.185330 seconds.
+>>>>>>> 4Nic

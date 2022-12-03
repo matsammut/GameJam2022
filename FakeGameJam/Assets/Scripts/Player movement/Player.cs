@@ -31,11 +31,31 @@ public class Player : MonoBehaviour
   private bool isStarted = false;
   public Text startText;
   private Rigidbody2D rb2d;
+  public bool isWalking = false;
+  public bool h;
 
+  
+  private Animator anim;
+  private string WALK_ANIMATION = "Walk";
+  private float movementX;
 
+  private Rigidbody2D myBody;
+
+  private SpriteRenderer sr;
+  
+  private void Awake()
+    {
+
+        
+        anim = GetComponent<Animator>();
+
+        sr = GetComponent<SpriteRenderer>();
+
+    }
     // Start is called before the first frame update
     void Start()
     {
+        jump_charge_remaining = 0;
         Time.timeScale = 0f;
         Candle1.SetActive(true);
         Candle2.SetActive(false);
@@ -55,42 +75,58 @@ public class Player : MonoBehaviour
             startText.gameObject.SetActive(false);
 
         }
+
+        
+
         //-------------------------------------------------------------------------------------------------------------
 
-            if (Input.GetKey(KeyCode.D))
-            {
-                transform.Translate(Vector3.right * Time.deltaTime * player_movement_speed);
-            }
+            // if (Input.GetKey(KeyCode.D))
+            // {
+            //   //movementX = Input.GetAxisRaw("Horizontal");
+            //   transform.Translate(Vector3.right * Time.deltaTime * player_movement_speed);
+            //   //AnimatePlayer();
+            // }
 
-            if (Input.GetKey(KeyCode.A))
-            {
-                transform.Translate(Vector3.left * Time.deltaTime * player_movement_speed);
-            }
+            // if (Input.GetKey(KeyCode.A))
+            // {
+            //   //movementX = Input.GetAxisRaw("Horizontal");
+            //   transform.Translate(Vector3.left * Time.deltaTime * player_movement_speed);
+            //   //AnimatePlayer();
+            // }
 
-            if (jump_charge_remaining > 0 && isGrounded)
-            {
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    isGrounded = false;
-                    transform.Translate(Vector3.up * player_jump_speed);
+            // if (jump_charge_remaining > 0 && isGrounded)
+            // {
+            //     if (Input.GetKeyDown(KeyCode.Space))
+            //     {
+            //         isGrounded = false;
+            //         transform.Translate(Vector3.up * player_jump_speed);
 
 
-                }
+            //     }
 
-            }
+            // }
 
             if (health == 0)
             {
                 Destroy(this.gameObject);
             }
 
+            movementX = Input.GetAxisRaw("Horizontal");
+
             if (Input.GetKey(KeyCode.D)) {
                 transform.Translate(Vector3.right * Time.deltaTime * player_movement_speed);
+                isWalking = true;
+                transform.localScale = new Vector3(0.4f,0.4f,0.4f);
             }
 
             if (Input.GetKey(KeyCode.A)) {
                 transform.Translate(Vector3.left * Time.deltaTime * player_movement_speed);
+                isWalking =true;
+               
+                transform.localScale = new Vector3(-0.4f,0.4f,0.4f);
             }
+
+            AnimatePlayer();
 
 
             if (jump_charge_remaining > 0) {
@@ -100,7 +136,7 @@ public class Player : MonoBehaviour
               }
             }
 
-
+          // isWalking = false;
 
             if (health == 0)
             {
@@ -118,7 +154,26 @@ public class Player : MonoBehaviour
 
   // Update is called once per frame
 
+  void AnimatePlayer() {
+        // we are going to the right side
+        if (movementX > 0)
+        {
+            anim.SetBool(WALK_ANIMATION, true);
+            sr.flipX = false;
+        }
+        else if (movementX < 0)
+        {
+            // we are going to the left side
+            anim.SetBool(WALK_ANIMATION, true);
+            //sr.flipX = true;
+        }
+        else 
+        {
+            Debug.Log("False");
+            anim.SetBool(WALK_ANIMATION, false);
+        }
 
+    }
 
 
 
