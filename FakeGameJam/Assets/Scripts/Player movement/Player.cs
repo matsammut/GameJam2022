@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
   private string GROUND_TAG = "Ground";
   private string DamageTag = "Damage";
   private string WinTag = "Win";
+  private string healTag = "Heal";
 
   public GameObject Candle1;
   public GameObject Candle2;
@@ -34,7 +35,10 @@ public class Player : MonoBehaviour
   public bool isWalking = false;
   public bool h;
 
-  
+  public bool isJumping = false;
+  // private string JUMP_ANIMATION = "jump";
+  private float movementY;
+
   private Animator anim;
   private string WALK_ANIMATION = "Walk";
   private float movementX;
@@ -55,6 +59,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rb2d = this.gameObject.GetComponent<Rigidbody2D>();
         jump_charge_remaining = 0;
         Time.timeScale = 0f;
         Candle1.SetActive(true);
@@ -106,13 +111,10 @@ public class Player : MonoBehaviour
 
             // }
 
-            if (health == 0)
-            {
-                Destroy(this.gameObject);
-            }
+
 
             movementX = Input.GetAxisRaw("Horizontal");
-
+            movementY = Input.GetAxisRaw("Vertical");
             if (Input.GetKey(KeyCode.D)) {
                 transform.Translate(Vector3.right * Time.deltaTime * player_movement_speed);
                 isWalking = true;
@@ -126,23 +128,27 @@ public class Player : MonoBehaviour
                 transform.localScale = new Vector3(-0.4f,0.4f,0.4f);
             }
 
-            AnimatePlayer();
+            
 
 
             if (jump_charge_remaining > 0) {
               if (Input.GetKeyDown(KeyCode.Space)) {
                 jump_charge_remaining --;
-                transform.Translate(Vector3.up * player_jump_speed);
+                rb2d.AddForce(Vector2.up*player_jump_speed, ForceMode2D.Impulse);
+                anim.SetTrigger("jump");
               }
             }
+            //anim.SetBool(JUMP_ANIMATION, false);
+
+            AnimatePlayer();
 
           // isWalking = false;
 
-            if (health == 0)
-            {
-              Destroy(this.gameObject);
-              SceneManager.LoadScene("Defeat");
-            }
+            // if (health == 0)
+            // {
+            //   Destroy(this.gameObject);
+            //   SceneManager.LoadScene("Defeat");
+            // }
 
             timer();
 
@@ -150,6 +156,17 @@ public class Player : MonoBehaviour
 
     // private void OnCollisionEnter2D(Collision2D collision);
   // Start is called before the first frame update
+
+
+
+  void gameOverLoose()
+  {
+            //     if (health == 0)
+            // {
+      Destroy(this.gameObject);
+      SceneManager.LoadScene("Defeat");
+    // }
+  }
 
 
   // Update is called once per frame
@@ -173,6 +190,10 @@ public class Player : MonoBehaviour
             anim.SetBool(WALK_ANIMATION, false);
         }
 
+
+        
+
+
     }
 
 
@@ -184,18 +205,27 @@ public class Player : MonoBehaviour
 
       if (collision.gameObject.CompareTag(GROUND_TAG))
           {
+            Debug.Log("Ground");
             jump_charge_remaining = max_jumps;
           }
 
       if (collision.gameObject.CompareTag(DamageTag)) {
-
-        transform.Translate(Vector3.up * player_jump_speed * 2);
-        health--;
+        Debug.Log("Damage");
+        rb2d.AddForce(Vector2.up*player_jump_speed/5, ForceMode2D.Impulse);
+        candleCharge++;
+        candleSegment();
 
       }
       if (collision.gameObject.CompareTag(WinTag)) {
-
+        Debug.Log("Win");
         SceneManager.LoadScene("Victory");
+
+      }
+        if (collision.gameObject.CompareTag(healTag)) {
+        Debug.Log("heal");
+        health++;
+        candleCharge--;
+        candlehealSegment();
 
       }
     }
@@ -262,10 +292,67 @@ public int timeTillChange = 60;
       Candle4.SetActive(false);
       Candle5.SetActive(true);
     }
-    else if (candleCharge == 5) {
+    else if (candleCharge >= 5) {
        health--;
+       gameOverLoose();
        //Game over
      }
+ }
+
+
+  void candlehealSegment()
+ {
+   if (candleCharge == 1) {
+    //  health--;
+     //Activate the corresponding segmeent
+     //Number 2 enabled
+     //number 1 disabled
+     Candle1.SetActive(false);
+     Candle2.SetActive(true);
+     Candle3.SetActive(false);
+     Candle4.SetActive(false);
+     Candle5.SetActive(false);
+   }
+   else if (candleCharge == 2) {
+      // health--;
+      //Activate the corresponding segmeent
+      Candle1.SetActive(false);
+      Candle2.SetActive(false);
+      Candle3.SetActive(true);
+      Candle4.SetActive(false);
+      Candle5.SetActive(false);
+    }
+    else if (candleCharge == 3) {
+    //  health--;
+     //Activate the corresponding segmeent
+     Candle1.SetActive(false);
+     Candle2.SetActive(false);
+     Candle3.SetActive(false);
+     Candle4.SetActive(true);
+     Candle5.SetActive(false);
+    }
+    else if (candleCharge == 4) {
+      // health--;
+      //Activate the corresponding segmeent
+      Candle1.SetActive(false);
+      Candle2.SetActive(false);
+      Candle3.SetActive(false);
+      Candle4.SetActive(false);
+      Candle5.SetActive(true);
+    }
+      else if (candleCharge == 0) {
+      // health--;
+      //Activate the corresponding segmeent
+      Candle1.SetActive(true);
+      Candle2.SetActive(false);
+      Candle3.SetActive(false);
+      Candle4.SetActive(false);
+      Candle5.SetActive(false);
+    }
+    else
+    {
+      candleCharge = 0;
+    }
  }
 
 

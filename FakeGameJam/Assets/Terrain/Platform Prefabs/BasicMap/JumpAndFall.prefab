@@ -153,7 +153,8 @@ MonoBehaviour:
   nextSection:
   - {fileID: 6814754885345330936, guid: 977ebd837c0328d4aa754361a3e7c867, type: 3}
   - {fileID: 4681726642035291542, guid: 4711509c902b4ba46a3437b372f67108, type: 3}
-  - {fileID: 1152564340786098251, guid: dc19528381b2e8e46a292c05cf69a7f7, type: 3}
+  - {fileID: 4247659145148795603, guid: 4e48d528e5b14254eb49aa006a94ed07, type: 3}
+  - {fileID: 8000086881959317563, guid: 32135c10f480dea40a4bb6bf50b94a8d, type: 3}
   randomSection: 0
   distance: 16
 --- !u!1 &1183231094124209129
