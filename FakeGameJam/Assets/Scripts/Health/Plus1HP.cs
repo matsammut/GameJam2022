@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class Plus1HP : MonoBehaviour
 {
+    public AudioSource matchstick;
+
+    void start()
+    {
+        matchstick = GetComponent<AudioSource>();
+    }
 
     //to dissapear on collision
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            matchstick.Play();
             Destroy(gameObject);
             /*
             if (health < 5)
