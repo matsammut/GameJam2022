@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-C:\Users\emagr\Documents\GitHub\Game Jam 2022\FakeGameJam
-=======
-<<<<<<< HEAD
-C:\Users\nicho\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam
-=======
-<<<<<<< HEAD
-C:\Users\Gigabyte\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam
-=======
-C:\Users\markd\OneDrive\Documents\GitHub\GameJam2022\FakeGameJam
->>>>>>> main
->>>>>>> main
->>>>>>> main
+C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam

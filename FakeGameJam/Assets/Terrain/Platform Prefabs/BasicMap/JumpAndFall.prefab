@@ -152,7 +152,6 @@ MonoBehaviour:
   - {fileID: 8382302218234890944, guid: 60a3ebaa01ce8dc469d477401f03964f, type: 3}
   - {fileID: 4681726642035291542, guid: 4711509c902b4ba46a3437b372f67108, type: 3}
   - {fileID: 1152564340786098251, guid: dc19528381b2e8e46a292c05cf69a7f7, type: 3}
-  - {fileID: 6006315419723522160, guid: ee12e1b4abd05b84fa71abaf9d905d9d, type: 3}
   randomSection: 0
   distance: 8
 --- !u!1 &1607039273526510832
