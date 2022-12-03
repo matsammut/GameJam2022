@@ -1,0 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Spawning : MonoBehaviour
+{
+
+  public Transform[] nextSection;
+  public int randomSection = 0;
+  public int distance = 8;
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+     {
+       Debug.Log("Collided");
+       //Detect player collision with current section to spawn the next.
+       int randomSection = Random.Range(0,nextSection.Length);
+
+       if (other.gameObject.tag == "Player") {
+
+         Debug.Log("Triggered");
+
+        Vector3 spawnPosition = transform.position + new Vector3 (distance, 0, 0);
+        Debug.Log("Triggered next");
+        Quaternion spawnRotation = Quaternion.identity;
+        Debug.Log("Triggered next 2");
+        Instantiate (nextSection[randomSection], spawnPosition, spawnRotation);
+        Destroy(GetComponent<Spawning>());
+       }
+
+     }
+
+}
