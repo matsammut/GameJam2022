@@ -53,26 +53,20 @@
     <UnityVersion>2021.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
->>>>>>> main
+    <Compile Include="Assets\Scripts\Press_to_Start_Menu\ControlScene.cs" />
     <Compile Include="Assets\Scripts\Health\timer.cs" />
     <Compile Include="Assets\Scripts\Main_Menu_Scripts\Main_Menu.cs" />
     <Compile Include="Assets\Scripts\Health\Plus1HP.cs" />
     <Compile Include="Assets\Scripts\Main_Menu_Scripts\Slider.cs" />
     <Compile Include="Assets\Scripts\Player movement\Player.cs" />
+    <Compile Include="Assets\Scripts\Main_Menu_Scripts\TESTS\RandomSelectionOfText.cs" />
+    <Compile Include="Assets\Scripts\Main_Menu_Scripts\ChangeSoundMute.cs" />
     <Compile Include="Assets\MainFollowPlayer.cs" />
     <Compile Include="Assets\Terrain\GenerationScript\Spawning.cs" />
     <Compile Include="Assets\Scripts\Pause_Menu_Scripts\Pause_Menu.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\Press_to_Start_Menu\ControlScene.cs" />
-    <Compile Include="Assets\Scripts\Main_Menu_Scripts\ChangeSoundMute.cs" />
-=======
-    <Compile Include="Assets\Scripts\Main_Menu_Scripts\TESTS\RandomSelectionOfText.cs" />
->>>>>>> main
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
