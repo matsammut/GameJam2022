@@ -1,12 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
 using UnityEngine.UI;
-
-=======
 using UnityEngine.SceneManagement;
->>>>>>> main
+
 
 public class Player : MonoBehaviour
 {
@@ -36,11 +33,15 @@ public class Player : MonoBehaviour
   private Rigidbody2D rb2d;
 
 
-<<<<<<< HEAD
     // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 0f;
+        Candle1.SetActive(true);
+        Candle2.SetActive(false);
+        Candle3.SetActive(false);
+        Candle4.SetActive(false);
+        Candle5.SetActive(false);
     }
 
     // Update is called once per frame
@@ -82,52 +83,41 @@ public class Player : MonoBehaviour
             {
                 Destroy(this.gameObject);
             }
-        
+
+            if (Input.GetKey(KeyCode.D)) {
+                transform.Translate(Vector3.right * Time.deltaTime * player_movement_speed);
+            }
+
+            if (Input.GetKey(KeyCode.A)) {
+                transform.Translate(Vector3.left * Time.deltaTime * player_movement_speed);
+            }
+
+
+            if (jump_charge_remaining > 0) {
+              if (Input.GetKeyDown(KeyCode.Space)) {
+                jump_charge_remaining --;
+                transform.Translate(Vector3.up * player_jump_speed);
+              }
+            }
+
+
+
+            if (health == 0)
+            {
+              Destroy(this.gameObject);
+              SceneManager.LoadScene("Defeat");
+            }
+
+            timer();
+
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-=======
+    // private void OnCollisionEnter2D(Collision2D collision);
   // Start is called before the first frame update
-  void Start()
-  {
-    //rb = GetComponent<Rigidbody>();
-    Candle1.SetActive(true);
-    Candle2.SetActive(false);
-    Candle3.SetActive(false);
-    Candle4.SetActive(false);
-    Candle5.SetActive(false);
 
-  }
 
   // Update is called once per frame
-  void Update()
-  {
-        if (Input.GetKey(KeyCode.D)) {
-            transform.Translate(Vector3.right * Time.deltaTime * player_movement_speed);
-        }
 
-        if (Input.GetKey(KeyCode.A)) {
-            transform.Translate(Vector3.left * Time.deltaTime * player_movement_speed);
-        }
-
-
-        if (jump_charge_remaining > 0) {
-          if (Input.GetKeyDown(KeyCode.Space)) {
-            jump_charge_remaining --;
-            transform.Translate(Vector3.up * player_jump_speed);
-          }
-        }
-
-
-
-        if (health == 0)
-        {
-          Destroy(this.gameObject);
-          SceneManager.LoadScene("Defeat");
-        }
-
-        timer();
-  }
 
 
 
@@ -135,7 +125,6 @@ public class Player : MonoBehaviour
 
 
    void OnCollisionEnter2D(Collision2D collision)
->>>>>>> main
     {
 
       if (collision.gameObject.CompareTag(GROUND_TAG))
@@ -230,35 +219,3 @@ public int timeTillChange = 60;
 
 
 }
-
-
-
-
-
-/*
-    void OnCollisionEnter(Collision collision)
-    {
-      if (collision.gameObject.tag == "ground")
-       {
-           //If the GameObject has the same tag as specified, output this message in the console
-           Debug.Log("Do something else here");
-           jump_charge_remaining = max_jumps;
-       }
-       if (collision.gameObject.tag == "powerup_jump")
-        {
-            //If the GameObject has the same tag as specified, output this message in the console
-            Debug.Log("Do something else here");
-            max_jumps++;
-            jump_charge_remaining = max_jumps;
-        }
-        if (collision.gameObject.tag == "enemy")
-         {
-             //If the GameObject has the same tag as specified, output this message in the console
-             Debug.Log("Do something else here");
-             health--;
-         }
-<<<<<<< HEAD
-    }*/
-=======
-    }*/
->>>>>>> main
