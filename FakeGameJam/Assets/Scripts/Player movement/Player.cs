@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
+using UnityEngine.UI;
+
+=======
 using UnityEngine.SceneManagement;
+>>>>>>> main
 
 public class Player : MonoBehaviour
 {
@@ -25,9 +30,63 @@ public class Player : MonoBehaviour
   public GameObject Candle4;
   public GameObject Candle5;
 
-  //Rigidbody rb;
+  //Press to start
+  private bool isStarted = false;
+  public Text startText;
+  private Rigidbody2D rb2d;
 
 
+<<<<<<< HEAD
+    // Start is called before the first frame update
+    void Start()
+    {
+        Time.timeScale = 0f;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        //Press to start
+        if (Input.GetMouseButtonDown(0) && isStarted == false)
+        {
+            Time.timeScale = 1f;
+            startText.gameObject.SetActive(false);
+
+        }
+        //-------------------------------------------------------------------------------------------------------------
+
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.Translate(Vector3.right * Time.deltaTime * player_movement_speed);
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                transform.Translate(Vector3.left * Time.deltaTime * player_movement_speed);
+            }
+
+            if (jump_charge_remaining > 0 && isGrounded)
+            {
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    isGrounded = false;
+                    transform.Translate(Vector3.up * player_jump_speed);
+
+
+                }
+
+            }
+
+            if (health == 0)
+            {
+                Destroy(this.gameObject);
+            }
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+=======
   // Start is called before the first frame update
   void Start()
   {
@@ -76,6 +135,7 @@ public class Player : MonoBehaviour
 
 
    void OnCollisionEnter2D(Collision2D collision)
+>>>>>>> main
     {
 
       if (collision.gameObject.CompareTag(GROUND_TAG))
@@ -197,4 +257,8 @@ public int timeTillChange = 60;
              Debug.Log("Do something else here");
              health--;
          }
+<<<<<<< HEAD
     }*/
+=======
+    }*/
+>>>>>>> main
