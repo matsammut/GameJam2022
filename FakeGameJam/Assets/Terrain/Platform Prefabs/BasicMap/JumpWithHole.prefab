@@ -268,6 +268,7 @@ MonoBehaviour:
   - {fileID: 8483107115406269219, guid: 1cf3b11758a9972489dadff65e111b45, type: 3}
   - {fileID: 8483107115406269219, guid: 1cf3b11758a9972489dadff65e111b45, type: 3}
   - {fileID: 8000086881959317563, guid: 32135c10f480dea40a4bb6bf50b94a8d, type: 3}
+  - {fileID: 2754745726221010903, guid: fe8f071e43b046646822f5e3e3fb23ff, type: 3}
   randomSection: 0
   distance: 16
 --- !u!1 &4011114650258237299

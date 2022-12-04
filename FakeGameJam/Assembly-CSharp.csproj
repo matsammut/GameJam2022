@@ -37,9 +37,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Flash.cs" />
+     <Compile Include="Assets\Scripts\Audio\PlayerSounds.cs" />
      <Compile Include="Assets\Scripts\Press_to_Start_Menu\ControlScene.cs" />
      <Compile Include="Assets\Scripts\Health\timer.cs" />
      <Compile Include="Assets\Scripts\Main_Menu_Scripts\Main_Menu.cs" />
+     <Compile Include="Assets\Scripts\PopUps\Epops.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrol.cs" />
      <Compile Include="Assets\Scripts\Health\Plus1HP.cs" />
      <Compile Include="Assets\Scripts\Main_Menu_Scripts\Slider.cs" />
@@ -47,6 +49,8 @@
      <Compile Include="Assets\Scripts\To implement\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Player movement\Player.cs" />
      <Compile Include="Assets\Scripts\Victory.cs" />
+     <Compile Include="Assets\Scripts\Audio\Raven.cs" />
+     <Compile Include="Assets\Scripts\volume_slider.cs" />
      <Compile Include="Assets\Scripts\Main_Menu_Scripts\TESTS\RandomSelectionOfText.cs" />
      <Compile Include="Assets\Scripts\EasyParallax\MovementSpeedType.cs" />
      <Compile Include="Assets\Scripts\Main_Menu_Scripts\ChangeSoundMute.cs" />

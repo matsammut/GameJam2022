@@ -384,6 +384,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/BackgroundFollowPlayer.cs"
 "Assets/MainFollowPlayer.cs"
+"Assets/Scripts/Audio/PlayerSounds.cs"
+"Assets/Scripts/Audio/Raven.cs"
 "Assets/Scripts/EasyParallax/MovementSpeedType.cs"
 "Assets/Scripts/EasyParallax/SpriteDuplicator.cs"
 "Assets/Scripts/EasyParallax/SpriteMovement.cs"
@@ -399,9 +401,11 @@
 "Assets/Scripts/Pause_Menu_Scripts/Pause_Menu.cs"
 "Assets/Scripts/Player movement/DestroyObject.cs"
 "Assets/Scripts/Player movement/Player.cs"
+"Assets/Scripts/PopUps/Epops.cs"
 "Assets/Scripts/Press_to_Start_Menu/ControlScene.cs"
 "Assets/Scripts/To implement/AudioManager.cs"
 "Assets/Scripts/Victory.cs"
+"Assets/Scripts/volume_slider.cs"
 "Assets/Terrain/GenerationScript/Spawning.cs"
 -langversion:9.0
 

@@ -51,6 +51,9 @@ public class Player : MonoBehaviour
   private SpriteRenderer sr;
 
   public Renderer rend;
+
+  AudioSource audioSource;
+  public AudioClip death;
   
   private void Awake()
     {
@@ -64,6 +67,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         rb2d = this.gameObject.GetComponent<Rigidbody2D>();
         jump_charge_remaining = 0;
         Time.timeScale = 0f;
@@ -156,18 +160,27 @@ public class Player : MonoBehaviour
     }
 
   // Start is called before the first frame update
-
+public bool dead =false;
 IEnumerator DieCoroutine()
     {
+      //death animation
+      if (!dead)
+      {
+        audioSource.PlayOneShot(death, 0.8f);
         anim.SetTrigger("die");
         Debug.Log("Waiting");
+        dead = true;
         yield return new WaitForSecondsRealtime(4);
         SceneManager.LoadScene("Defeat");
+      }
 
     }
 
   void gameOverLoose()
   {
+    //play audio
+
+
       //  anim.SetTrigger("die");
       StartCoroutine(DieCoroutine());
       // Destroy(this.gameObject);
@@ -301,7 +314,7 @@ public int timeTillChange = 60;
       Candle4.SetActive(false);
       Candle5.SetActive(true);
     }
-    else if (candleCharge >= 5) {
+    else if (candleCharge >= 5) { //death
        health--;
        gameOverLoose();
        //Game over
