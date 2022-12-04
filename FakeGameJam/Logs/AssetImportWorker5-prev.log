@@ -1,0 +1,1237 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49708
+Successfully changed project path to: C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
+C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 105.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/GameJam2022/FakeGameJam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006621 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Domain Reload Profiling:
+	ReloadAssembly (716ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (523ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\GameJam2022\FakeGameJam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1176ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (615ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (318ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (229.0 KB). Loaded Objects now: 4674.
+Memory consumption went from 159.4 MB to 159.1 MB.
+Total: 4.518900 ms (FindLiveObjects: 0.462300 ms CreateObjectMapping: 0.194100 ms MarkObjects: 3.551500 ms  DeleteObjects: 0.308400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 828.895887 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64780e95ae9c4c2faab5704daee15c97') in 0.445862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55512bd60dc818593512a1ed63173c11') in 0.204891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a28add3142a133c7da6372b4f523d6a') in 0.246941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab
+  artifactKey: Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Climb.prefab using Guid(ee12e1b4abd05b84fa71abaf9d905d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35d9d12b87d8522e64468d0efff4b61') in 0.221058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.017633 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05155d5d49084c34194301d0c8d571e0') in 0.102271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc045a8dd6995d3da283bb9fdc3a4e2') in 0.383971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.356364 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fa3617c83e3ae73037518973b4655c') in 0.082976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d765147462b65626d90da66c88fa29') in 0.069355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc12049e61c8a88bd84a27e360b676b6') in 0.351050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.528827 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208c4e860a914843940b382bd761accc') in 0.120551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a91a1b6ed2c4c26697ed7e2dd80da9') in 0.338099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.513944 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416578bf5d69f559160d48741ee33563') in 0.102688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492f2c876482cb51e8e0e7b3f2023593') in 0.361640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.962822 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416c8f95d49e44eda304a711a5d6c090') in 0.111561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc76ccde4b2b246b11bc9a83013e237d') in 0.340620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.474197 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0afdcfc6c8d9873e63dba37e600341d') in 0.089202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15aa65129a631733b9a7960e640ef0f5') in 0.078895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bf54258147c113ca4f3ab6e2d8b8b8') in 0.316140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.478186 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d807c3105e67d231c0f26ed80cad8a') in 0.104482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062e6a5c7f35a90a4583a8bf6b783517') in 0.369197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.894669 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee72c9595d5fb19ebf86920e6cb791b') in 0.111543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b379b43e701d0d8745647aa3373215c7') in 0.354832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.124194 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c63ba769c9bc4ffcd013f1b3867ecd') in 0.053111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff34e957091b80eb4d64d8200764eb6') in 0.233060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.133546 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602a496cb8c8d14754a8f2229e6b51bd') in 0.094721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd766aaf137b1fc5bb51c8b82417b96c') in 0.103209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0ca95368136c0ec1e2721559b2ba88') in 0.318453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.384301 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcec2a746b659fca889f1665628227b1') in 0.101203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb44c49e9b13b6c6d97cc805b1df181') in 0.089325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bedf9f0de2949112468c581652f23b') in 0.343870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.275141 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0eb1f3fc1ee1883da062bf2db6a7a0') in 0.058933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b581869e3d7f4cd711de6ff2c21f1b09') in 0.054915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede784600a12c9669367e3544706b166') in 0.229386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.564250 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe41fca9f56e825ca511c4708c31b3a') in 0.111673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7f6c3dfae19f30684dbf161b73e86b') in 0.396304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.661397 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542d15bd1549e54b3a7a46e5ba2fd18f') in 0.082870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccd1c0e8b0e36e83e3fb4265c0f32ba') in 0.067699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ff45f144ce0cfef9965c8bb4c0069b') in 0.349097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.511679 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f32f0e53852dd47a96f02b25b10958') in 0.085715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc688628b231bd33b6c45100ebf63f2e') in 0.090438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8282687a4c3957b8c8f40fa369717416') in 0.317894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.923498 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79414078cc697b560ca40354403337cb') in 0.111511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5ae1486de5af8262eddf1e50d14366') in 0.361581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.562183 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89427cdc7fd2d48aaa2734ce967d7c0f') in 0.079917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6441fd35600bbe9781493ae74e1ca429') in 0.304598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.614749 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bf73c5b1714a0302c96350417d15aa') in 0.097624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701dfbcd06bcbb23da2807eb0960afc1') in 0.243451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.893045 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c58b5797d8ea1209cd44dfc386769a4') in 0.117200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e113a147b7750736d7ed8591b87f706') in 0.082926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a4e1192b02f630bba05c99ac42dc71') in 0.369731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.946145 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14373b55943cf27274726e4319bed1e') in 0.110204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d97e8dcf80f39d4f42fd3e06594f54') in 0.357920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.533557 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73e62fa0cfd80f17dd96ece012b8ab1') in 0.098270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a09c6ce4df8b37a8412c41de0dc37c') in 0.090241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c53c0185beaefd0f983fe0842a41010') in 0.321798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.223876 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f23e62828c925afcfd667ce75b9db98') in 0.109499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d4b78e0338672be9d2f23b48bf8f7e') in 0.372769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.796606 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2d8e3a54c32fe9569686c211f78184') in 0.114971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9627f37b007766dc169eb10fec55d1') in 0.342539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.401888 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b093677cc4332a087f50b3c98f79ff') in 0.084566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d011e140cccc837ce4080373eb221af') in 0.091660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0400338ef146cd8ac22bb4e343fa6e3') in 0.323557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.488851 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a801b3f08d8bd49bb1794b3050e140') in 0.108811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe8d71c5008ae7e863e5a6091439d4f') in 0.333104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.838378 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d1aeaf456e9ebb6379de29917232e5') in 0.123415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae11dfc0ff7a51cfca1e9384a6863961') in 0.371476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102004 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5587ba471d4e5a1ee0507d9f8a5399c') in 0.046502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f59fd3ae5a11e360cc1f9c548205bdf') in 0.225668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ShrubRun.prefab
+  artifactKey: Guid(939ee876040ba8241b2eef9312c6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ShrubRun.prefab using Guid(939ee876040ba8241b2eef9312c6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a920cce593aeb284507f2a16671e7b01') in 0.046814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.297419 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633ed07abc199d92589598d29134170f') in 0.107161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347b914e38495833b13a5a39761110d9') in 0.342554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.206688 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bdbb6cadd7e9d86451b26f68936117') in 0.093181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b7b54d2926316f48e9840fa98a1aac') in 0.097077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f8e5221eb877bdaf30da8ef56eee18') in 0.332830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.038643 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ea299648710c4aba69bd07239f60ea') in 0.089971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8744ee67d5c9acee3aabd743fe30ed91') in 0.090098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401bdc7bee0c5d3dbb45246b937b0202') in 0.339533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.319256 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d553eef6bf5f3fb91fbfbbed433221') in 0.101920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85edb3b0fcf50de1434d34395a833bd2') in 0.099705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bcf58fe3ea44281cfcad83d430737d') in 0.309323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.527570 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6504bd098a9d45ecd67fc53b39dcbb') in 0.090500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab
+  artifactKey: Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/FenceJump.prefab using Guid(0fb887ab615dda540921c22d5ca7048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf36ef614d5a2b842eee7a89e9ab083') in 0.097227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab
+  artifactKey: Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBase.prefab using Guid(32b359bc33a003f4f8844ee995c41815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822e892f45b819b3d6c3bebde9b8c48a') in 0.252647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.630913 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab
+  artifactKey: Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/ClimbThenJumpGap.prefab using Guid(2f6b66bda759aa649895162d263ab4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96d16edd27a102dc4a427f21c7456a2') in 0.103621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab
+  artifactKey: Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Positive/GoodBaseStep2.prefab using Guid(6505c91d55731a148b1002e2541d28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b6ac131a4cded5ce3b79d7705be284') in 0.332610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.453873 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab
+  artifactKey: Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab using Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0a93ca0d5048a8b4afda7b02d35db1') in 0.473365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b16b9552704a5edca214e7b49aecb86') in 0.406630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a545adc852996576dc2b2f74237e4aa4') in 0.241220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.117902 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab
+  artifactKey: Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab using Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e463bbf2c6da7be8480e7780f26f1f8') in 0.468634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fd784586e3311ac23bdb3a83a8ccc8') in 0.375064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e414a0597647ddbda05ca80df7a875') in 0.254112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9f617b046af21f27607b051ffe04db') in 0.266916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab
+  artifactKey: Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Pyramid.prefab using Guid(4711509c902b4ba46a3437b372f67108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bbe6865f8ecbd511f24aca51dcd639') in 0.287373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.171305 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab
+  artifactKey: Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab using Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edf461ec350f5362c57894a6c7c2d8f') in 0.460186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689fae1fb7ddbcf51d482f1325f4c164') in 0.356697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.077231 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab
+  artifactKey: Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab using Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdc7cf872186b199b3149073dac0bc6') in 0.448730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab
+  artifactKey: Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpAndFall.prefab using Guid(86a1a986d1508414ba4c8370a2d5c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd88e601f72e0104e3cc27207e52e9e4') in 0.359586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.309103 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab
+  artifactKey: Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab using Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8a50765e5b4c06abe1359f2e3c2485') in 0.433994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cb9453185c408eafc2e6c42acf967e') in 0.401423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4cb1a937bf3e51f9c43c8151e3d966') in 0.230013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.702488 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab
+  artifactKey: Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/EnemySpawn.prefab using Guid(32135c10f480dea40a4bb6bf50b94a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fac2340be0f775383fd74efe686a41') in 0.363885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab
+  artifactKey: Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/JumpWithHole.prefab using Guid(0b3afafda4adc6a4f9e47335d52f17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b42955dd818e968804a29ca2d92999') in 0.271210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab
+  artifactKey: Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/BasicMap/Platform_Base.prefab using Guid(60a3ebaa01ce8dc469d477401f03964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f499b3fdf78ddc4c3a6c1e974fc0c7') in 0.244973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.945030 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26b11871ada899fb89121af6b43816e') in 0.116311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078c6cbd7bc77261e6364a737fc30891') in 0.119768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.827476 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6c44c8556b27036802e08777fe74a7') in 0.113769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61b2c99019b55e62ee846349f0f6d33') in 0.095396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.005367 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ee2efd73ea82ee4071dd6b2b81967e') in 0.108366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b0c7e1fb91ff355e90553710a9983f') in 0.081462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.669099 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0311e0a023e55d2a5b08d69f5615ff82') in 0.095333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c61070f9f1b869e60b1503336f63c4') in 0.098878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.930561 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3000aedc6d69b710c5cd6d2e5daaca66') in 0.105589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134b9b4fee9d97f3e68f9e2341739a9f') in 0.089524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.550019 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddd19466ac1b6b2fd69a51fd3083a1a') in 0.107428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77378c2dbe857773b0b75d03de1a716') in 0.108463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.463281 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c4ec8a553930cce4daa3b4e9ed4d00') in 0.110712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753496d35b82cef9e5e2b561281c173b') in 0.082089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.689696 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe52d31cab335dc3513e7ea49fa7de7') in 0.116540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24761a9b8a8303e8b89248bcac469792') in 0.091899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.621858 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dbf3e406c4b539ad1bb1bb9800f6a4') in 0.103771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab
+  artifactKey: Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab using Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89f691646a598c653ba19b9a4e4da06') in 0.077202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.620419 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006208f7cde2b62a09b186a2b6da56f8') in 0.111115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba26ff7c6a356ee88584418ee292fc27') in 0.080655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.763703 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55228b390cd54381457c6e77abe78eb6') in 0.120044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50119837320062b7fd17e666be71765') in 0.079452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.026153 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd73b169056b2a44e34bf0836690a45f') in 0.102908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a2a930dc38d0d97de033dc542a2bcc') in 0.094095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.479476 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef4627e71444fddee3c53fe32f80500') in 0.101199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab
+  artifactKey: Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab using Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd87e836fa4712ca6f36e647594b6b1b') in 0.092845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.104951 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70523e861b5219828f277e68b1aa394a') in 0.119118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8769aa25dc3cf22562661501f0e23af') in 0.089635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.562714 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5e24e0fc216202e1ebc2d244759f53') in 0.116259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625174abe6f828291a4aa863a31fa730') in 0.068901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.810616 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba53c0e2822e53ac7e461d76d54a768') in 0.105357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edbfd5896989ce031e31be440a09d39') in 0.078302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.073692 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1752f186c8b4446e4a089c96d25846c1') in 0.112593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35452c2aad72689c1691254efdd4dbf2') in 0.108098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.807812 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a2a876f08d12ed697f6f146f4fc0f9') in 0.101585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05531018cd02f70101ed0c4fe885afad') in 0.085010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.120218 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f72d5a79cde86f945ffa084872437f3') in 0.110100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55a069eeb18f49978a7452aa577db1a') in 0.099358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.252056 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed5c40fa4653d53a8bd14e25b3799ae') in 0.118681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb57dfefa8a47a49748c352f74f65ba') in 0.095417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.280807 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c050c9a31de0b5a87d799fc69e4c9f') in 0.125604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab
+  artifactKey: Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab using Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f89ea1c79bc82614809b1159489845') in 0.093202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.421735 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c34db400c22daa59d939c8835a5685') in 0.114752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab
+  artifactKey: Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab using Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33308793b69a1a23e2e0329ec8eb2fdb') in 0.077491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.289611 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3096093023131939d926659fe5dfef60') in 0.122637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b51e46045da8120f44c144afd3fdbb') in 0.079418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.050429 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e0bb1927cb3d6c16e0fd640b8cee55') in 0.106345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd1dc270935415bde1677efcce19d77') in 0.071694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.926146 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03875a2fc419d863840ab0c4f5bcc46') in 0.095772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/ENDwall.prefab
+  artifactKey: Guid(c920c248b3e269c4c81bad8474e1aff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/ENDwall.prefab using Guid(c920c248b3e269c4c81bad8474e1aff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2424cdba6ac9f5a941b51118e56e2e') in 0.074188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d9d3417fb4a2cba6d8b67c32a207a3') in 0.066586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.976106 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c5c70e1c83120e92a7d4bbc59e8f5d') in 0.129604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eed3a2e5a4545247353b97b4aec847f') in 0.093062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.227149 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53931b857f4b0729f50ca9f173d8a3b') in 0.118400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6e3722274ec12297c48b345b82ceb6') in 0.066889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.103031 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a837ad354d5543d1f6238bdc568c4c4') in 0.111952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f715edcee4bd753859a02798486b7a4') in 0.089807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.686935 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a45a7b0e293592f395aef014cd4676b') in 0.114100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7c27053df8789d757dd44d25f50a69') in 0.065930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.267712 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9e5fe81eb41cab78aabadfd0bc0b9b') in 0.104892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab
+  artifactKey: Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab using Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15276cbf085a5526e3b63b5c443985c5') in 0.069355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.039490 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c2fa6071ae1b78aee9c6162a57f68d') in 0.109635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86a5beec838e7508b8bbe7522825d11') in 0.080358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.817312 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3076d3e87e26b89e8100f0b36b209e') in 0.116613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/ENDwall.prefab
+  artifactKey: Guid(c920c248b3e269c4c81bad8474e1aff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/ENDwall.prefab using Guid(c920c248b3e269c4c81bad8474e1aff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa7967f8e63213e65ca8740948706a3') in 0.072399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab
+  artifactKey: Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/JumpAndFallOnWire.prefab using Guid(9780f5756698aed4e9c2d3a3258556cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1e6870dc83405b64c36e97dd2307af') in 0.054421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.044645 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089b4e05316a8527025d7668f385ec78') in 0.107675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab
+  artifactKey: Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab using Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cb587288a1c965673fbd79ec131d7d') in 0.102454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.080667 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534a993e5b639ff9092f4d27bf4d1260') in 0.110890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab
+  artifactKey: Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/WallRun.prefab using Guid(38fdaf59e6581e845a2be102f97474fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4c1f8a45a62176c044abef42236a5c') in 0.090543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.319352 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfd4413e586de26897a5f54cde59b91') in 0.128869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d33f7041946774e9b3b48f8f170fa2') in 0.087272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.632859 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33907aaebe9fdddcb1c42a0b123df908') in 0.118840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b8df121aadb3f9cfaf0d4605e252ca') in 0.101997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.851600 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab
+  artifactKey: Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/Bridge.prefab using Guid(901cccde22af38d40912d134ae9e36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c155126c54ad5625913004467c831d1d') in 0.118879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab
+  artifactKey: Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Platform Prefabs/Negative/DoubleJump.prefab using Guid(a90dccaf4de8481409d94c0fc5f42de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c992377f29394d27fb74bf4562175a9e') in 0.092783 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
