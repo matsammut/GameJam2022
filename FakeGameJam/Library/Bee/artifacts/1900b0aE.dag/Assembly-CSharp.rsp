@@ -397,6 +397,7 @@
 "Assets/Scripts/Main_Menu_Scripts/Slider.cs"
 "Assets/Scripts/Main_Menu_Scripts/TESTS/RandomSelectionOfText.cs"
 "Assets/Scripts/Pause_Menu_Scripts/Pause_Menu.cs"
+"Assets/Scripts/Player movement/DestroyObject.cs"
 "Assets/Scripts/Player movement/Player.cs"
 "Assets/Scripts/Press_to_Start_Menu/ControlScene.cs"
 "Assets/Scripts/To implement/AudioManager.cs"

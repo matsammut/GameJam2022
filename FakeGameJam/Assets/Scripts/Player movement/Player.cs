@@ -21,12 +21,15 @@ public class Player : MonoBehaviour
   private string DamageTag = "Damage";
   private string WinTag = "Win";
   private string healTag = "Heal";
+  private string BirdTag = "Bird";
 
   public GameObject Candle1;
   public GameObject Candle2;
   public GameObject Candle3;
   public GameObject Candle4;
   public GameObject Candle5;
+
+  public GameObject BirdAsset;
 
   //Press to start
   private bool isStarted = false;
@@ -46,6 +49,8 @@ public class Player : MonoBehaviour
   private Rigidbody2D myBody;
 
   private SpriteRenderer sr;
+
+  public Renderer rend;
   
   private void Awake()
     {
@@ -67,6 +72,9 @@ public class Player : MonoBehaviour
         Candle3.SetActive(false);
         Candle4.SetActive(false);
         Candle5.SetActive(false);
+
+        rend = BirdAsset.GetComponent<Renderer>();
+        // rend.enabled = false;
     }
 
     // Update is called once per frame
@@ -143,29 +151,27 @@ public class Player : MonoBehaviour
             AnimatePlayer();
 
           // isWalking = false;
-
-            // if (health == 0)
-            // {
-            //   Destroy(this.gameObject);
-            //   SceneManager.LoadScene("Defeat");
-            // }
-
             timer();
 
     }
 
-    // private void OnCollisionEnter2D(Collision2D collision);
   // Start is called before the first frame update
 
+IEnumerator DieCoroutine()
+    {
+        anim.SetTrigger("die");
+        Debug.Log("Waiting");
+        yield return new WaitForSecondsRealtime(4);
+        SceneManager.LoadScene("Defeat");
 
+    }
 
   void gameOverLoose()
   {
-            //     if (health == 0)
-            // {
-      Destroy(this.gameObject);
-      SceneManager.LoadScene("Defeat");
-    // }
+      //  anim.SetTrigger("die");
+      StartCoroutine(DieCoroutine());
+      // Destroy(this.gameObject);
+      
   }
 
 
@@ -182,16 +188,12 @@ public class Player : MonoBehaviour
         {
             // we are going to the left side
             anim.SetBool(WALK_ANIMATION, true);
-            //sr.flipX = true;
         }
         else 
         {
             Debug.Log("False");
             anim.SetBool(WALK_ANIMATION, false);
         }
-
-
-        
 
 
     }
@@ -221,13 +223,20 @@ public class Player : MonoBehaviour
         SceneManager.LoadScene("Victory");
 
       }
-        if (collision.gameObject.CompareTag(healTag)) {
+      if (collision.gameObject.CompareTag(healTag)) {
         Debug.Log("heal");
         health++;
         candleCharge--;
         candlehealSegment();
 
       }
+
+      if (collision.gameObject.CompareTag(BirdTag)) {
+        Debug.Log("Bird");
+        BirdAsset.SetActive(false);
+
+      }
+
     }
 
 
